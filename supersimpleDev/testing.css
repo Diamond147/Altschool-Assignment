@@ -1,0 +1,939 @@
+.button,
+.p {
+    /* font-family: Roboto; */
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+/* EXERCISE 3 */
+.Uber {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 11px;
+    font-style: italic;
+}
+
+.Amazon {
+    background-color: rgb(255, 216, 20);
+    color: black;
+    font-weight: bold;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 50px;
+    margin-left: 30px;
+}
+
+.Github {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: 0;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 5px;
+    margin-left: 30px;
+    padding: 10px 20px;
+}
+
+.Bootstrap {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 0;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.Bootstrap2 {
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border: 1px solid rgb(108, 117, 125);
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.LinkedIn {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    padding: 10px 20px;
+    border: 0;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+.LinkedIn2 {
+    background-color: white;
+    color: rgb(10, 102, 194);
+    border: 1px solid rgb(10, 102, 194);
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.first {
+    color: rgb(0, 113, 133);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.second {
+    /* color: black; */
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.third {
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fourth {
+    /* color: black; */
+    /* font-weight: bold; */
+    font-size: 20px;
+}
+
+/* EXERCISE 4 */
+.Back {
+    padding: 8px;
+    font-weight: bold;
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+.figures {
+    color: black;
+    margin: 0px 8px;
+    font-size: 20px;
+}
+
+.Next {
+    padding: 8px;
+    font-weight: bold;
+    margin-left: 8px;
+    font-size: 16px;
+}
+
+.stretch {
+    background-color: green;
+    color: white;
+    padding: 12px 22px;
+    border: none;
+    margin-top: 30px;
+    /* font-weight: bold; */
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.stretch:hover {
+    padding: 15px 30px;
+}
+
+.Shadow {
+    background-color: green;
+    color: white;
+    padding: 12px 22px;
+    border: none;
+    margin-top: 20px;
+    /* font-weight: bold; */
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+    /* opacity: box-shadow 1s; */
+}
+
+.Shadow:hover {
+    padding: 15px 30px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* EXERCISE 5 */
+.font {
+    font-family: Tahooma;
+    font-weight: bold;
+    font-size: 20px;
+    width: 200px;
+}
+
+.deal {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+    width: 250px;
+}
+
+.sales {
+    font-family: Arial;
+    color: red;
+    /* font-weight: normal; */
+    font-size: 13px;
+    font-style: italic;
+}
+
+.course {
+    font-family: Verdana;
+    font-weight: bold;
+    width: 250px;
+    font-size: 20px;
+}
+
+.pro {
+    font-family: Verdana;
+    color: gray;
+    font-size: 13px;
+}
+
+.click {
+    font-family: Verdana;
+    background-color: green;
+    color: white;
+    padding: 7px 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+
+.one {
+    font-family: Arial;
+    color: red;
+    font-weight: bold;
+    font-size: 11px;
+    /* text-align: center; */
+    margin-left: 180px;
+    line-height: 35px;
+    display: block;
+}
+
+.two {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 120px;
+    line-height: 35px;
+    display: block;
+}
+
+.three {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 0;
+    display: block;
+}
+
+.four {
+    font-family: Arial;
+    margin-left: 150px;
+    line-height: 35px;
+    display: block;
+}
+
+.five {
+    font-family: Arial;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-left: 170px;
+    line-height: 35px;
+    /* display: block; */
+}
+
+
+.figure1 {
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.figure2 {
+    font-family: Arial;
+}
+
+.figure3 {
+    font-family: Arial;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    line-height: 40px;
+}
+
+.figure4 {
+    font-family: Arial;
+    color: dimgray;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.figure5 {
+    font-family: Arial;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.dev {
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.dev2 {
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.top {
+    color: blue;
+}
+
+/* EXERCISE 7 */
+.Blackface {
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.Blackface1 {
+    width: 150px;
+    border: 2px solid black;
+    margin-left: 50px;
+}
+.Blackface2 {
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 100px;
+    margin-left: 50px;
+}
+/* .Blackface4 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: right;
+} */
+
+
+.Email {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+.input {
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.submit {
+    background-color: blue;
+    color: white;
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 20px;
+    width: 400px;
+    font-weight: bold;
+    font-size: 13px;
+    display: block;
+}
+
+.div1 {
+    border: 1px solid black;
+    padding: 0; 
+    /* width: 350px; */
+    display: inline-block;
+    margin: 10px 10px;
+}
+.Blackface3 {
+    width: 60px;
+    border: 2px solid black;
+    border-radius: 100px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.happen {
+    font-size: 17px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.Tweet {
+    background-color: blue;
+    color: white;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 80px;
+}
+
+/* EXERCISE 8 */
+.name1 {
+    /* border: 2px solid black; */
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.email {
+    /* border: 2px solid black; */
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+}
+.chat {
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+}
+.surname,
+.firstname {
+    width: 100px;
+    display: inline-block;
+    padding: 7px 12px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    /* font-weight: bold; */
+    font-size: 15px;
+}
+.email1 {
+    width: 233px;
+    display: block;
+    padding: 7px 12px;
+    border: 0;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    /* font-weight: bold; */
+    font-size: 15px;
+}
+.sign {
+    background-color: blue;
+    color: white;
+    width: 260px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* EXERCISE 9 */
+.redsquare {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-right: 30px;
+}
+.greencircle {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 100px;
+}
+.divborder {
+    border: 1px solid black;
+    width: 300px;
+    margin: 10px 2px;
+    padding: 10px 10px;
+}
+.Satisfied {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.youtube {
+    background-color: black;
+    color: white;
+    width: 350px;
+    padding: 5px 10px;
+    line-height: 20px;
+}
+.install {
+    font-weight: bold;
+    font-size: 20px;
+}
+.access {
+    color: gray;
+    font-size: 17px;
+}
+.shadow {
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    border-radius: 7px;
+    width: 350px;
+    margin: 15px 5px;
+}
+.Blackfaceee {
+    width: 50px;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+.text-box {
+    border: 0;
+    width: 210px;
+    font-size: 15px;
+    /* padding: 8px; */
+    vertical-align: middle;
+}
+.Tweet-button {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    vertical-align: middle; 
+}
+
+.grid-eleven {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    column-gap: 30px;
+}
+.facebook {
+    width: 200px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    vertical-align: top;
+    margin-right: 10px;
+    line-height: 6px;
+}
+.ten-e {
+    display: grid;
+    width: 200px;
+    grid-template-columns: 40px 1fr;
+    align-items: center;
+}
+.Blackface-reduce {
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 100px;
+    margin-left: 6px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+.serenity {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    /* object-position: center; */
+}
+.oliver {
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 7px;
+    margin-bottom: 10px;
+}
+.mutual {
+    color: rgb(100, 100, 100);
+    vertical-align: middle;
+    font-size: 17px;
+}
+.add-friend {
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 130px;
+    margin: 7px 7px;
+    font-size: 15px;
+}
+
+/* EXERCISE 10 */
+.Blackface3 {
+    width: 60px;
+    border: 2px solid black;
+    border-radius: 100px;
+    margin: 10px;
+    vertical-align: middle;
+}
+.mid {
+    display: inline-block;
+    vertical-align: top;
+}
+.ten {
+    /* color: rgb(100, 100, 100); */
+    font-size: 20px;
+    font-weight: bold;
+    /* width: 60px; */
+    /* display: inline-block; */
+    margin-right: 100px;
+    margin-left: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* vertical-align: top; */
+}
+.cat,
+.popular {
+    color: rgb(100, 100, 100);
+    width: 60px;
+    margin-right: 100px;
+    margin-left: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.follow {
+    background-color: rgb(24, 119, 242);
+    color: white;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+    
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+
+/* MEDIA QUERY */
+/* @media (max-width:600px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 601px) and (max-width:999px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+} */
+
+.youtube-pic {
+    width: 100%;
+}
+.serenity-pic {
+    width: 300px;
+    height: 170px;
+    object-position: center;
+}
+.french-montana-pic {
+    width: 300px;
+    height: 170px;
+    object-position: center;
+}
+/* .youtube-practice {
+    width: 300px;
+    background-color: blue;
+    margin-top: 20px;
+    margin-bottom: 10px;
+} */
+.youtube-grid {
+    /* background-color: red; */
+    /* width: 300px; */
+    display: grid;
+    grid-template-columns: 60px 1fr;
+}
+.Blackface4 {
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+.youtube-p1 {
+    /* background-color: yellow; */
+    margin-top: 0;
+    /* margin-bottom: 0; */
+    font-weight: bold;
+    font-size: 20px;
+    /* line-height: 10px; */
+}
+.youtube-p2 {
+    color: gray;
+    font-size: 20px;
+    margin-top: 0;
+    line-height: 10px;
+}
+
+/* EXERCISE 11 */
+.grid-col {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+.div1 {
+    background-color: lightblue;
+}
+.div2 {
+    background-color: lightpink;
+}
+.div3 {
+    background-color: lightgreen;
+}
+.grid-class {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+.testing-eleven {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+/* .first-grid {
+    width: 200px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    vertical-align: top;
+    margin-right: 20px;
+    line-height: 6px;
+} */
+.French-montana {
+    width: 200px;
+}
+
+.grid-within {
+    display: grid;
+    grid-template-columns: 45px 1fr;
+    align-items: center;
+    margin-top: 0px;
+}
+
+/* EXERCISE 12 */
+.header {
+    margin-top: 20px;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left {
+    background-color: lightblue;
+    width: 150px;
+}
+
+.middle {
+    background-color: lightpink;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+}
+
+.right {
+    background-color: lightblue;
+    width: 200px;
+}
+.Exercise-12 {
+    margin-top: 10px;
+    border: solid gray 1px;
+    font-weight: bold;
+    font-size: 17px;
+    /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15); */
+}
+.Home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.two-12a {
+    background-color: blue;
+    color: white;
+    width: 35px;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+.two-12b {
+    background-color: blue;
+    color: white;
+    width: 25px;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+.flex-header {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: purple;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+.search {
+    width: 400px;
+    border-radius: 16px;
+    border: 0;
+    padding: 7px;
+}
+.search::placeholder { /* this is to change font of a placeholder */
+    font-size: 15px;
+}
+.download-button {
+    background-color: purple;
+    color: white;
+    padding: 6px 9px;
+    border: solid 1px white;
+}
+
+/* EXERCISE 13 */
+.exercise-13f {
+    font-family: Arial;
+    display: flex;
+    flex-direction: row;
+    width: 420px;
+    border: solid rgb(228, 227, 227) 1px;
+    padding-bottom: 10px;
+}
+.Blackface-new {
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 100px;
+    margin: 20px;
+}
+.exercise-13-div {
+    flex: 1;
+    /* margin-bottom: 0; */
+}
+.supersimple {
+    /* display: flex; */
+    /* flex-direction: row; */
+    margin-bottom: 0;
+}
+.supersimple1 {
+    font-weight: bold;
+}
+.supersimple2 {
+    color: rgb(87, 85, 85);
+}
+.exercise-13-div2 {
+    line-height: 20px;
+    margin-top: 0;
+}
+.exercise-13-border {
+    font-family: Arial;
+    border: solid 1px rgb(200, 200, 200);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.blank {
+    background-color: rgba(220, 220, 220);
+    width: 100px;
+    height: 106px;
+}
+.beside-blank {
+    /* flex: 1; */
+    margin: 0px 8px;
+}
+.youtube-com {
+    color: rgb(111, 111, 111);
+    margin-bottom: 0;
+}
+.overview {
+    margin-top: 8px;
+    line-height: 20px;
+}
+
+.exercise-13d {
+    font-family: Arial;
+    width: 420px;
+    border: solid rgb(227, 227, 227) 1px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.15);
+    margin-bottom: 50px;
+}
+.exercise-13d-div1 {
+    font-size: 14px;
+    margin: 8px 20px;
+    color: rgb(120, 120, 120);
+}
+.exercise-13d-div2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 23px;
+}
+.exercise-13d-div3 {
+    flex: 1;
+}
+.exercise-13d-div4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.chewy {
+    font-weight: bold;
+    font-size: 18px;
+}
+.timeee {
+    color: rgb(120, 120, 120);
+    font-size: 16px;
+}
+.biggest {
+    font-weight: bold;
+}
+.last-parag {
+    color: rgb(120, 120, 120);
+}
+
+/* Tooltip css */
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+}
+.tooltip {
+    background-color: white;
+    width: 250px;
+    padding: 12px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 55px;
+    z-index: 300;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s;
+}
+.tooltip-container:hover .tooltip {
+    opacity: 1;
+}
+.tooltip-text {
+    font-family: Roboto, Arial;
+    line-height: 35px;
+    margin-left: 10px;
+    margin-top: -17px;
+}
+/* media query style is up there at the youtube practice */

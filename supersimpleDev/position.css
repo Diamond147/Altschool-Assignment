@@ -1,0 +1,239 @@
+/* THE 3RD POSITIONING */
+body {
+    height: 3000px;
+}
+.ash-squared-box {
+    background-color: darkgray;
+    position: fixed;
+    /* top: 100px; */
+    bottom: 20px;
+    /* left: 100px; */
+    right: 20px;
+    width: 320px;
+    height: 180px;
+}
+.x-position {
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: -18px;
+    left: -18px;
+    font-family: Arial;
+    font-size: 20px;
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.time-position {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    font-size: 18px;
+    padding: 5px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.product-position {
+    background-color: darkgray;
+    /* position: fixed; */
+    position: relative;
+    top: 100px;
+    bottom: 100px;
+    left: 100px;
+    right: 100px;
+    width: 300px;
+    height: 150px;
+    /* display: inline-block; */
+}
+.percentage-position {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    font-size: 18px;
+    padding: 5px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.exercise-15f {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-left: 60px;
+}
+.bottom-overlay {
+    background-color: rgba(255, 255, 255, 0.85);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+}
+.cart-button {
+    background-color: white;
+    color: black;
+    font-family: ar;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+
+/* THE 2ND POSITIONING
+.body-style {
+    height: 3000px;
+    padding-top: 50px;
+    font-family: Arial;
+}
+.header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+.left-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 35px;
+}
+.Blackface-new-pic {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+.Oliver-class {
+    margin-left: 10px;
+    font-size: 19px;
+}
+.right-section {
+    display: flex;
+    flex-direction: row;
+    margin-right: 35px;
+}
+.Add-Friend-button {
+    background-color: rgb(24, 119, 242);
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+}
+.Message-button {
+    background-color: rgb(155, 155, 155);
+    font-weight: bold;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+.bottom-right {
+    background-color: black;
+    color: white;
+    width: 90px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.sidebar {
+    background-color: green;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 110px;
+    margin-top: 75px;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Modal {
+    background-color: white;
+    width: 450px;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: Arial;
+    line-height: 35px;
+}
+.Modal-Title {
+    font-weight: bold;
+    font-size: 24px;
+} */
+
+/* THE 1ST POSITIONING */
+/* .exercise-14f-div1 {
+    background-color: red;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 270px;
+    right: 200px;
+}
+.exercise-14f-div2 {
+    background-color: rgb(55, 55, 55);
+    color: white;
+    font-size: 18px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 90px;
+    width: 180px;
+    padding: 10px;
+    padding-top: 25px;
+    line-height: 45px;
+}
+.info-class {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.exercise-14f-div3 {
+    background-color: rgb(33, 33, 33);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0px;
+    width: 90px;
+    padding-top: 25px;
+}
+.Blackface-new-pic {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.empty-blue-box {
+    background-color: blue;
+    width: 275px;
+    height: 150px;
+    position: fixed;
+    top: 400px;
+    left: 200px;
+} */
+

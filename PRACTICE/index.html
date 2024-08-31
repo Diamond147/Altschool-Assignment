@@ -1,0 +1,345 @@
+<!--this is my first html page -->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title> First Title </title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <!-- use css to hide the navigation -->
+    <!-- skip navigation -->
+    <a class="visually hidden" href="#main">skip to main content</a>
+
+    <header>
+        <h1>MY FIRST WEBPAGE </h1>
+
+       <!--  how to use aria-labelledby
+        <nav aria-labelledby="toc">
+            <section id="toc">
+                Table of Content
+            </section>
+        </nav> -->
+        
+        <!-- how to use aria-label
+        <nav aria-label="Table of Content">
+            <div>Table of Content</div>
+            <div>
+                <ul>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </nav> -->
+
+        <!-- Breadcrumbs -->
+        <nav aria-label="breadcrumbs">
+            <ol role="list">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/learn/">Learn</a>
+                </li>
+                <li>
+                    <a href="/learn/html">Learn HTML</a>
+                </li>
+                <li aria-current="page">
+                    /Home/Learn/LearnHTML/Navigation
+                </li>
+            </ol>
+        </nav>
+
+    </header>
+
+    <marquee><button>WELCOME TO MY PAGE!</button></marquee>
+    <br>
+
+    <!-- Global navigation -->  
+    <nav>
+        <ul>
+            <li><a href="#top" target="_self" title="scroll UP">up page link</a></li>
+            <li><a href="#about" target="_self"> about link</a></li>
+            <li><a href="mailto:adesolaopeyemi147@gmail.com" target="_self" title="mail">Contact us</a></li>
+            <li><a href="tel:07042000699" target="_self" title="Phone no">Call us</a></li>
+            <li><a href="sms:07042000699" target="_self" title="text message">Text us</a></li>
+            <!-- <li><a href="blob:https://altschool.com" download="hal.svg">Download File</a></li> -->
+            <li><a href="/IMG-20230611-WA0014.jpg" download> Download File </a></li>
+        </ul>
+    </nav>
+
+
+    <main id="main">
+        <nav>
+            <h2>SIGN UP</h2>
+        </nav>
+        <br/>
+
+        <p class="external">This css was applied via link tag which we popularly </p>
+
+        <section>
+            <form action="/Done" method="POST" enctype="multipart/form-data">
+                <section>
+                    <label for="fullname">Enter your fullname: </label>
+                    <br>
+                    <input type="text" name="fullname" id="fullname" placeholder="fullname" />
+                    <br> <br>
+                    <label for="password">Enter your password: </label>
+                    <br>
+                    <input type="password" name="password" id="password" placeholder="password" />
+                    <br> <br>
+                    <label for="password">Confirm password: </label>
+                    <br>
+                    <input type="password" name="password" id="password" placeholder="password" />
+                    <br> <br>
+                    <label for="email">Enter your email: </label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="email" />
+                    <br>
+                    <br>
+                </section>
+
+                <section>
+                    <label for="">Male</label>
+                    <input type="radio" name="Male" id="Male" placeholder="sex" />
+                    <label for="">Female</label>
+                    <input type="radio" name="Female" id="Female" placeholder placeholder="sex" />
+                    <label for="">Transgender</label>
+                    <input type="radio" name="Transgender" id="Transgender" placeholder="sex" />
+                    <br>
+                    <br>
+                </section>
+
+                <section>
+                    <label for="text">Select your country:</label>
+                    <select name="" id="">
+                        <option value="">Nigeria</option>
+                        <option value="">Canada</option>
+                        <option value="">USA</option>
+                        <option value="">Uk</option>
+                    </select>
+                    <br>
+                </section>
+                <br>
+                <section>
+                    <input type="file">
+                </section>
+                <br>
+                <section>
+                    <fieldset>
+                        <legend>Subscribe to the newsletter:</legend>
+                        <input type="text" name="text">
+                        <button>OK</button>
+                    </fieldset>
+                </section>
+
+
+                <!-- <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="enter your name" required> -->
+
+                <section>
+                    <label for="name">Tell us about yourself:</label>
+                    <br>
+                    <textarea name="rant" id="rant" cols="30" rows="5"></textarea>
+                </section>
+            </form>
+
+            <article>
+                <aside><!-- this  is some texts or image relating to article  --></aside>
+            </article>
+
+        </section>
+        <br>
+        <nav>
+            <button>Done</button>
+        </nav>
+        <br>
+        <nav class="animation">
+            <p>This is a practice paragraph for css animation so bear with me </p>
+        </nav>
+        <h2>Grid Layout</h2>
+        <section class="grid">
+            <div class="grid-cell">one</div>
+            <div class="grid-cell">two</div>
+            <div class="grid-cell">three</div>
+        </section>
+
+        <h2>Flexbox Layout</h2>
+        <section class="flex">
+            <div class="flex-cell">one</div>
+            <div class="flex-cell">two</div>
+            <div class="flex-cell">three</div>
+            <!-- <p class="flex-cell">one</p>
+            <p class="flex-cell">two</p>
+            <p class="flex-cell">three</p>  -->
+        </section>
+        <br/>
+
+       
+        <details>
+            <summary>Accordion:</summary>
+            <div>i want to be a billionaire, i want to be a footballer</div>
+        </details>
+        
+        <br/>
+
+        <!-- Image elements -->   
+        <section>
+            <figure class="figure" 6>
+                <img src="./ASSETS/images/Blackface.jpg" height="200" width="200" alt="Blackface" role="img"/>
+                <figcaption> A black face</figcaption>
+
+                <!-- <img src="" alt="" srcset="" sizes="" loading="" role="" > -->
+                <!-- src is used for one image -->
+                <!-- srcset is used for multiple images separated by comma and their width values -->
+                <!-- aspect-ratio is used for width and height -->
+
+            </figure>
+            <!-- Picture element is used for responsive images -->
+            <picture>
+                <source src="" srcset="" sizes="" type=""> 
+                <source src="" srcset="" sizes="" type=""> 
+                <source src="" srcset="" sizes="" type="">
+                <img src="" alt=""> 
+            </picture>
+        </section>
+
+        <hr>
+        <!-- Month 2 Week 2 class -->
+        <section id="about" aria-labelledby="about-heading">
+            <h1 id="about">This is heading 1</h1>
+        </section>
+        <hr>
+        <blockquote>
+            <p><q>Watching video tutorials alone without practice is BS.</q></p> <cite>- Mr Opeyemi 2023</cite>
+        </blockquote>
+        <hr>
+
+        <!-- showing a line of code on webpage -->
+        <code>
+            &lt;div&gt; line of code &lt;/div&gt;
+            <hr>
+            <samp>
+                H<sub>2</sub>O 
+                <br>
+                X<sup>2</sup>+2X+2
+            </samp>
+        </code>
+        <hr>
+        <br> <br>
+        <footer> &copy;Opeyemi </footer>
+
+        <table border="2">
+            <!-- caption, colgroup, colspan, thead(th,tr,td), tbody(th,tr,td), tfoot(th,tr,td), -->
+            <caption><strong>Phone Types</strong></caption>
+
+            <thead>
+                <tr>
+                    <th>Iphones</th>
+                    <th>Samsung</th>
+                    <th>Tecno</th>
+                </tr>  
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>iphone xs max</td>
+                    <td>samsung s9</td>
+                    <td>tecno hot7</td>
+                </tr>
+                <tr>
+                    <td>iphone 12 pro max</td>
+                    <td>samsung fold</td>
+                    <td>tecno spark7</td>
+                </tr>
+            </tbody>
+            
+            <tfoot>
+                <tr>
+
+                </tr>
+            </tfoot>
+        </table>
+
+
+        <ul>
+            <li>black color</li>
+            <li>white color</li>
+            <li>ash color</li>
+        </ul>
+        <ol>
+            <li>rice</li>
+            <li>spag</li>
+            <li>noodles</li>
+        </ol>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Hypertext Text Markup Language</dd>
+        </dl>
+
+
+        <br>
+        <section>
+            <a href="./ASSETS/images/Blackface.jpg" download>Download Image</a>
+            <br>
+            <br>
+            <audio src="media/audio.mp3" volume="" autoplay="" controls></audio><br>
+            <br>
+            <br>
+            <video src="media/audio.mp3" controls></video><br>
+            <br>
+
+            <!-- Tracks -->
+            <video src="">
+                <source />
+                <track kind="chapters" src="" srclang="" >
+            </video>
+            <br>
+
+            <!-- iframe -->
+            <div><iframe src="https://google.com" frameborder="0"></iframe></div>
+            <br>
+
+            <!-- canvas -->
+            <canvas></canvas>
+
+            <!-- svg -->
+        </section>
+
+       <!--  shortcut for unordered list items
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+            <li>item 5</li>
+            <li>item 6</li>
+            <li>item 7</li>
+            <li>item 8</li>
+            <li>item 9</li>
+            <li>item 10</li>
+        </ul> -->
+
+        <br>
+
+    </main>
+    <br>
+    <script>
+        let firstName = "Opeyemi"
+        let lastName = "Adesola"
+
+        console.log(firstName, lastName)
+        
+        // this is a statement(a line of code)
+        /* let text = "Hello World";
+        alert(text)
+
+        let name = "josh"; let age = 27; */
+
+
+    </script>
+</body>
+
+</html>

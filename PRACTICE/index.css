@@ -1,0 +1,191 @@
+body {
+    background-color: rgba(0, 89, 255, 0.397);
+    color: black;
+}
+
+figure {
+    padding: 10px;
+    border: 2px solid;
+    margin: 0;
+    /* margin: 0 auto; */
+    margin-block-start: 32px;
+    margin-block-end: 32px;
+    margin-inline-start: 12px;
+    margin-inline-end: 32px;
+    width: min-content;
+    /* width: 100%; */
+}
+figcaption {
+    border: 1px solid red;
+    background-color: brown;
+    width: max-content;
+    text-align: center;
+    margin-inline-start: 50px;
+    margin-block-end: -20px;
+}
+/* table {
+        padding: 7px;
+        border-radius: 10px; 
+
+        } */
+        
+/* table, tr >* {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    border-spacing: 5px;
+} */
+
+.animation {
+    animation-name: slidein;
+    animation-duration: 5s;
+}
+
+/* keyframes */
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-right: 0%;
+        width: 100%;
+    }
+}
+
+.grid {
+    display: grid;
+    /* grid-template-rows: repeat(3, 1fr); */
+    /* grid-auto-rows: 100px; */
+    gap: 15px;
+}
+
+.grid-cell, .flex-cell {
+    /* height: 50px; */
+    /* background-color: darkkhaki; */
+    padding: 10px;
+    border: 1px solid;
+}
+
+.flex {
+    display: flex;
+    gap: 15px;
+}
+
+/* styling on mobile device */
+@media (max-width: 768px) {
+    .flex {
+        /* flex-direction: column; */
+    }
+}
+
+/* media queries */
+@media (max-width: 500px) {
+    .external {
+        color:paleturquoise;
+    }
+}
+
+
+/* SIMPLE SELECTION
+1. Universal selector
+reset or override
+*, *::before, *::after {
+    box-sizing: border-box;
+    color:green;
+    padding: 0;
+    margin: 0;
+}
+
+2. Type selector
+p, div, body {
+    background-color: #fff;
+}
+
+3. Class selection
+
+4. ID selection
+
+5. Attribute selection
+[title=value],
+[title=value s],
+[title^='cascade'],
+[title*='style'],
+[title$='sheet'] {
+    border:solid;
+    text-decoration: underline;
+    color: black;
+}
+
+6. Pseudo classes(rep states):- :hover :active 
+p:hover {
+    font-size: 2rem;
+    transition: all 2s;
+}
+li:nth-child(even) {}
+li:nth-child(2n+1) {}
+
+7. Pseudo element 
+::before {
+    content: '&';
+    font-size: 4rem;
+}
+::after {
+    content: '^';
+    font-size: 4rem;
+} */
+
+/* COMPLEX SELECTORS
+Combinators:
+1. Descendants (white space) 
+2. Next siblings (+)
+3. Direct siblings (>)
+4. Subsequent siblings (tilda sign) */
+
+/* COMPOUND SELECTORS(separated by comma) */
+
+::selection {
+    color: aliceblue;
+}
+
+/* SPECIFICITY
+HTML Element (0 0 1) 
+Pseudo Element (0 0 1) 
+Pseudo Class (0 1 0)
+Class Selection(0 1 0)
+ID Selection (1 0 0)
+Inline(1000)
+Important(10000)
+Inline style attribute > Internal style tag > External style sheet. */
+
+/* LOGICAL PROPIETIES:
+BLOCK (Vertical) AND INLINE (Horizontal)
+margin-block-start: 2em; (margin-top)
+margin-block-end: 2em; (margin-bottom)
+margin-inline-start: 2em; (margin-left)
+margin-inline-end: 2em; (margin-right) */
+
+/* BOX MODEL 
+MARGIN doesnt affect the width but the padding and border affect the width. 
+BOX-SIZING helps with the calculation of width and height.
+WIDTH = border + padding + context (Border-box/Box-sizing)
+* {
+    box-sizing: content-box/Unset;
+} 
+div {
+    display: inline;
+    display: inline-block;
+} */
+
+/* UNSET-- This resets codes back to what the initial is.
+INITIAL-- This is the default codes/keywords in our browser set by user-agent. 
+INHERIT-- This tells a HTML selector/element to inherit from direct parent. 
+PERCENTAGE--  Anything that has percentage is relative to the parent
+WIDTH-- This is calculated based on the parent
+HEIGHT-- This is calculated based on the children */
+
+NEGATIVE MARGIN
+Hungry margin is simply:- 
+p {
+    margin: auto;
+}

@@ -1,0 +1,38 @@
+body {
+    background-color: teal;
+    margin: 0;
+    padding: 0;
+}
+
+.header-section {
+    background-color: coral;
+    color: black;
+    height: 100%;
+    display: flex;
+    font-size: 20px;
+}
+
+ul {
+    color: beige;
+    display: block; 
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+.div1 {
+    font-size: 20px;
+    /* display: flex; */
+    text-align: center;
+}
+.paragraph {
+    font-size: 20px;
+    line-height: 30px;
+}
+ol {
+    font-size: 20px;
+    line-height: 30px;
+}
+.footer {
+    font-size: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}

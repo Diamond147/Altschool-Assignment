@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=b, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <header>
+        <aside class="Altschool-logo">
+            <img src="/Assets/alt-img.jpeg" alt="Altschool logo">
+        </aside>
+        <section>
+            <nav  id="header">
+                <a href="/index.html"class="Home"> HOME </a>
+                <a href="/media.html" class="Media"> MEDIA </a>
+                <a href="/table.html"class="Table"> TABLE </a>
+            </nav>
+        </section>   
+    </header> 
+
+
+    <main>
+        <section id="main">
+            <section class="left-section">
+                <div class="image-section">
+                    <img src="/Assets/Altschool-form-img.png" alt="Altschool form image"
+                    width="400" height="300">
+                </div>
+
+                <div class="learn">Learn highly sought<br> after skills without <br>hassle.</div>
+
+                <nav class="alt-link">
+                    <a href="https://x.com/altschoolafrica"><img src="/Assets/X.png" class="twitter"
+                            alt="Twitter"></a>
+                    <a href="https://www.instagram.com/altschoolafrica/"><img src="/Assets/instagram (1).png"
+                            class="instagram" alt="Instagram"></a>
+                    <a href="https://web.facebook.com/AltSchoolAfrica?_rdc=1&_rdr"><img src="/Assets/facebook.png"
+                            class="facebook" alt="Facebook"></a>
+                    <a href="https://www.linkedin.com/school/altschoolafrica"><img src="/linkedin.png"
+                            class="linkedin" alt="LinkedIn"></a>
+                </nav>
+                
+                <section class="tel-1">
+                    <p>Tel: 0800ALTSCHOOL</p>
+                    <p>&copy; 2024 AltSchool Africa. All rights reserved.</p>
+                </section>
+        
+            </section>
+
+            <form id="right-section" action="/Proceed" method="GET">
+                <nav class="nav-section">
+                    <div>Already an Altschool? <a href="#"> Sign In! </a></div>
+                </nav>
+                <section>
+                    <div class="sign-up-text">Signup</div>
+                    <div class="take-steps">Take the next steps to apply at Altschool Africa</div>
+                </section>
+                <section class="sub-main">
+                    <section class="first-section-form">
+                        <div class="sign-up-form">
+                            <label for="First name"> First Name </label>
+                            <input type="text" name="firstname" id="firstname" placeholder="Enter first name" required />
+                        </div>
+            
+                        <div class="sign-up-form">
+                            <label for="last name"> Last Name </label>
+                            <input type="text" name="last name" id="last name" placeholder="Enter last name" required />
+                        </div>
+                    </section>
+            
+                    <section class="second-section-form">
+                        <div class="sign-up-form">
+                            <label for="gender"> Gender </label>
+                            <select name="gender" id="gender" required>
+                                <option disabled selected value>select gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Bisexual">Bisexual</option>
+                            </select>
+                        </div>
+            
+                        <div class="sign-up-form">
+                            <label for="Date of birth">Date of birth</label>
+                            <input type="date" name="Date of birth" id="Date of birth" placeholder="Date of birth" required />
+                        </div>
+                    </section>
+            
+                    <section class="third-section-form">
+                        <div class="sign-up-form">
+                            <label for="email"> Email Address </label>
+                            <input type="email" name="email" id="email" placeholder="Enter email address" required />
+                        </div>
+            
+                        <div class="sign-up-form">
+                            <label for="Education Level">Education Level</label>
+                            <select name="Education Level" id="Education Level" required>
+                                <option disabled selected value>Select level of education</option>
+                                <option value="bachelors degree">bachelors degree</option>
+                                <option value="masters degree">masters degree</option>
+                                <option value="undergraduate">undergraduate</option>
+                                <option value="WASSCE">WASSCE</option>
+                            </select>
+                        </div>
+                    </section>
+            
+                    <section class="fourth-section-form">
+                        <div class="sign-up-form">
+                            <label for="country"> Country</label>
+                            <select name="country" id="country" required>
+                                <option disabled selected value>select your country</option>
+                                <option value="USA">USA</option>
+                                <option value="UK">UK</option>
+                                <option value="Nigeria">Nigeria</option>
+                                <option value="Ghana">Ghana</option>
+                                <option value="Kenya">Kenya</option>
+                                <option value="sierra leone">sierra leone</option>
+                                <option value="others">others</option>
+                            </select>
+                        </div>
+            
+                        <div class="sign-up-form">
+                            <label for="State of residence">State/City of residence</label>
+                            <input type="text" name="State of residence" id="State of residence"
+                                placeholder="Enter your state of residence" required>
+                        </div>
+                    </section>
+            
+                    <section class="fifth-section-form">
+                        <div class="sign-up-form">
+                            <label for="Employment Status">Employment Status</label>
+                            <select name="Employment Status" id="Employment Status" required>
+                                <option disabled selected value>select your employment status</option>
+                                <option value="Employed">Employed</option>
+                                <option value="Self-employed">Self-employed</option>
+                                <option value="Unemployed">Unemployed</option>
+                            </select>
+                        </div>
+            
+                        <div class="sign-up-form">
+                            <label for="phone number">Phone Number</label>
+                            <input type="number" name="number" id="number" placeholder="08157436298" required>
+                        </div>
+                    </section>
+            
+                    <section class="sixth-section-form">
+                        <div class="sign-up-form">
+                            <label for="school">Choose School</label>
+                            <select name="school" id="school" required>
+                                <option disabled selected value>select your school</option>
+                                <option value="School of Data">School of Data</option>
+                                <option value="School of Product">School of Product</option>
+                                <option value="School of Engineering">School of Engineering</option>
+                            </select>
+                        </div>
+            
+                        <div class="sign-up-form">
+                            <label for="course of Study">Choose course of Study</label>
+                            <select name="course of Study" id="course of Study" required>
+                                <option disabled selected value>select course</option>
+                                <option value="Frontend Engineering">Frontend Engineering</option>
+                                <option value="Backend Engineering">Backend Engineering</option>
+                                <option value="Cloud Engineering">Cloud Engineering</option>
+                                <option value="Data Analysis">Data Analysis</option>
+                                <option value="Data Engineering">Data Engineering</option>
+                                <option value="Data Science">Data Science</option>
+                                <option value="Product Desig">Product Design</option>
+                                <option value="Product Managemen">Product Management</option>
+                                <option value="Product Marketing">Product Marketing</option>
+                            </select>
+                        </div>
+                    </section>
+                    
+                    <section class="seventh-section-form">
+                        <div class="sign-up-form">
+                            <label for="hear-about-us">How did you hear about</label>
+                            <select name="hear-about-us" id="hear-about-us" required>
+                                <option disabled selected value>Select channel</option>
+                                <option value="Twitter">Twitter</option>
+                                <option value="Referral">Referral</option>
+                                <option value="LinkedIn">LinkedIn</option>
+                                <option value="LinkedIn">Instagram</option>
+                                <option value="LinkedIn">Google</option>
+                                <option value="LinkedIn">Youtube</option>
+                            </select>
+                        </div>
+                    </section>
+                
+                    <section class="eighth-section-form">
+                        <div class="sign-up-form">
+                            <label for="password"> Password </label>
+                            <input type="password" name="password" id="password" placeholder="Enter password" required />
+                        </div>
+                
+                        <div class="sign-up-form">
+                            <label for="Confirmpassword"> Confirm Password </label>
+                            <input type="password" name="Confirmpassword" id="Confirmpassword" placeholder="Enter password again"
+                                required />
+                        </div>
+                    </section>
+                
+                    <section class="terms">
+                        <p> By clicking continue, I agree to the <a href="https://www.altschoolafrica.com/terms-and-conditions" 
+                            target="__blank">Terms of Use</a>
+                            and acknowledge that i<br> have read the <a href="https://www.altschoolafrica.com/privacy-policy"
+                            target="__blank">Privacy Policy.</a>
+                        </p>
+                    </section>
+                
+                    <div class="button">
+                        <button class="button" type="submit"> Submit <!-- &#xf061; --> </button>
+                    </div>
+                </section>
+            
+            
+            </form>
+            
+        </section>
+
+    </main>
+
+    <footer class="footer-section">
+        
+    </footer>
+</body>
+
+</html>

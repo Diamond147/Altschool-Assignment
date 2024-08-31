@@ -1,0 +1,74 @@
+/* For Media Assignment */
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background-color: black;
+    color: azure;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+main {
+    background-color: white;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+.Form,
+.Home,
+.Table {
+    margin: 0px 50px;
+    color: white;
+}
+.image-section,
+.audio-section,
+.video-section {
+    color: #000;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.picture-section {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+.My-Face {
+    border-radius: 200px;
+}
+.audio-container {
+    text-align: center;
+    margin: 50px 0px;
+}
+.audio1,
+.audio2 {
+    width: 70%;
+    max-width: 700px;
+    border-radius: 50px;
+    margin: 10px 0px;
+}
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.Footer-section {
+    background-color: black;
+    color: azure;
+    font-size: 25px;
+    display: flex;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+}
